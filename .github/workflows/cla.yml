@@ -33,6 +33,6 @@ jobs:
           allowlist: bot*,dependabot[bot]
           custom-notsigned-prcomment: >
             Thank you for your contribution!
-            Please read the CLA: $pathToCLADocument
+            Please read the CLA: https://github.com/Gimanh/test-cla1/blob/main/CLA/CLA.md
             Then comment exactly:
             "I have read the CLA Document and I hereby sign the CLA"
