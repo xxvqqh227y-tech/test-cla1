@@ -28,7 +28,7 @@ jobs:
           PERSONAL_ACCESS_TOKEN: ${{ secrets.PERSONAL_ACCESS_TOKEN_CLA }}
         with:
           path-to-signatures: 'signatures/cla.json'
-          path-to-document: 'https://github.com/<ORG>/<REPO>/blob/main/CLA/CLA.md'
+          path-to-document: 'https://github.com/Gimanh/test-cla1/blob/main/CLA/CLA.md'
           branch: 'cla-signatures'
           allowlist: bot*,dependabot[bot]
           custom-notsigned-prcomment: >
