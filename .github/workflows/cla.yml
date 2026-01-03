@@ -27,7 +27,7 @@ jobs:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           PERSONAL_ACCESS_TOKEN: ${{ secrets.PERSONAL_ACCESS_TOKEN_CLA }}
         with:
-          signed-commitment-message: 'I have read the CLA Document and I hereby sign the CLA'
+          signed-commitment-message: '^I have read the CLA Document and I hereby sign the CLA$'
           path-to-signatures: 'signatures/cla.json'
           path-to-cla-document: 'https://github.com/Gimanh/test-cla1/blob/main/CLA/CLA.md'
           branch: 'cla-signatures'
